@@ -8,8 +8,8 @@ jobs:
    runs-on: ubuntu-latest
    steps:
    - name: Checkout Code
-   uses: actions/checkout@v4
+     uses: actions/checkout@v4
    - name: Build java package
-   run: mvn clean install -f Javarepo1/pom.xml
+     run: mvn clean install -f Javarepo1/pom.xml
    
     
